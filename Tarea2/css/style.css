@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+    padding-top: 56px; 
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 72px;
+    }
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+
+.card-img-top {
+    max-width: 50%;
+    height: auto;
+}
